@@ -27,7 +27,7 @@
         <div className="carousel">
           <div className="carousel-track">
             {photos.map((photo, index) => (
-              <img key={index} src={photo} alt={`Photo ${index + 1}`} className="carousel-image" />
+              <img key={index} src={photo} alt="scenery" className="carousel-image" />
             ))}
           </div>
         </div>
